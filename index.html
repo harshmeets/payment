@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay Payment Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image.png" alt="Company Logo">
+        </div>
+        <div class="logo">
+            <h1>RISE IN TECHNOLOGY</h1>
+          </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our Service</h1>
+                <p>Experience something amazing today!</p>
+                <div class="payment-input">
+                    <label for="amount">Amount (in INR):</label>
+                    <input type="number" id="amount" min="1" step="1" placeholder="Enter amount" required>
+                    <button id="payment-button" class="btn">Pay Now</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Rise In Technology</p>
+    </footer>
+</body>
+</html>
